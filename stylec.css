@@ -1,0 +1,52 @@
+
+:root { --mavi: #6bc1f2 }
+header { background: url('head.png') center/cover }
+.bg-mavi { background-color: var(--mavi) }
+.bg-goy{background-color: #072035;}
+.bg-boz { background-color: #f1f1f1 }
+.text-mavi { color: var(--mavi) }
+.vh-50 { min-height: 50vh; }
+.features:hover { opacity: .5;}
+.serviceimgs{ width: 130px; height: 120; margin-left: -10%;}
+.carousel-caption , .carousel-item {height: 200px;}
+.carousel-indicators button { width: 45px!important; height: 45px!important; border-radius: 50%; }
+.carousel-indicators button.active { width: 50px!important; height: 50px!important; }
+
+.carousel-inner h6 { text-transform: uppercase; letter-spacing: .1rem;}
+.carousel-inner p { text-transform: uppercase; color: rgba(255, 255, 255, 0.7);}
+
+footer p{
+    opacity: 0.7;
+    font-size: 0.8rem;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+ul.bottom-icons {
+    display: flex;
+    justify-content: center; 
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+
+footer h5{
+    margin-top: 40px;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Roboto";
+    
+}
+.download {
+    background: rgb(43, 62, 184);
+    background: linear-gradient(90deg, rgb(69, 172, 212) 0%, rgb(184, 159, 221) 13%, rgb(48, 45, 204) 100%);
+  }
+
+.bt1 { background: url("doc1.png") center/cover;}
+.bt2 { background: url("doc4.png") center/cover;}
+.bt3 { background: url("doc3.png") center/cover;}
+.bt4 { background: url("doc5.png") center/cover;}
+.bt5 { background: url("doc2.png") center/cover;}
