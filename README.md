@@ -1,2 +1,2 @@
 # Clinic-page
-using php and html also css and bootstrap
+create clinic page using php and html also css and bootstrap
